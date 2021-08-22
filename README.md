@@ -1,5 +1,5 @@
 # Sign_Language_Detection
-This project is used to process a video depicting a word in sign language and gives the translation in any preferred language.
+This project is used to process a video depicting a word in sign language and gives the translation into one's regional language.
 
 ASL_alphabet_recognition.py:
 Train the model to recognise sign language alphabets using Convolutional Neural Network(CNN).
@@ -7,7 +7,7 @@ Train the model to recognise sign language alphabets using Convolutional Neural 
 Sign_Language_Detection.py: 
 Takes in the input video, Extracts the unique frames using Scale Invariant Feature Transform(SIFT) and Support Vector Machine(SVM).
 Performs Image preprocessing using Skin Segmentation and predict the alphabet using the trained model.
-The predicted alphabets are combined together and translated to the preferred language using Google Translate API.
+The predicted alphabets are combined together and translated into one's regional language using Google Translate API.
 
 Unique_frame_detection_TRAIN.py:
 Train the model to classify unique frames.
